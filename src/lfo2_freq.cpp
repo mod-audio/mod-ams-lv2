@@ -138,4 +138,4 @@ void Lfo2Freq::run(uint32_t nframes)
 	} while(len);
 }
 
-static int _ = Lfo2Freq::register_class("http://github.com/blablack/ams-lv2/lfo2_freq");
+static int _ = Lfo2Freq::register_class("http://github.com/moddevices/ams-lv2/lfo2_freq");

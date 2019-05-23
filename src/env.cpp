@@ -157,5 +157,5 @@ void Env::run(uint32_t nframes)
 	}
 }
 
-static int _ = Env::register_class("http://github.com/blablack/ams-lv2/env");
+static int _ = Env::register_class("http://github.com/moddevices/ams-lv2/env");
 
