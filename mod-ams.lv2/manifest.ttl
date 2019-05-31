@@ -16,7 +16,7 @@
 		foaf:mbox <mailto:blablack@gmail.com>
 	] .
 
-<http://github.com/blablack/ams-lv2/env>
+<http://github.com/moddevices/ams-lv2/env>
 	a lv2:Plugin ;
 	lv2:binary <env.so>  ;
 	rdfs:seeAlso <env.ttl> , <modgui/AMS_Env.modgui/modgui.ttl> .
