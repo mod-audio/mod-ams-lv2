@@ -7,13 +7,13 @@
 @prefix ll: 	<http://ll-plugins.nongnu.org/lv2/namespace#> .
 @prefix guiext: <http://lv2plug.in/ns/extensions/ui#> .
 
-<http://github.com/blablack/ams-lv2/vcf/gui>
+<http://moddevices.com/plugins/mod-devel/ams-lv2/vcf/gui>
   a guiext:GtkUI ;
   guiext:binary <vcf_gui.so> .
 
-<http://github.com/blablack/ams-lv2/vcf>
+<http://moddevices.com/plugins/mod-devel/ams-lv2/vcf>
     a lv2:Plugin, mod:ControlVoltagePlugin;
-	lv2:project <http://github.com/blablack/ams-lv2/> ;
+	lv2:project <http://moddevices.com/plugins/mod-devel/ams-lv2/> ;
 	doap:name "AMS VCF" ;
 	doap:license <http://opensource.org/licenses/isc> ;
 
@@ -28,7 +28,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 """;
 
 	ll:pegName "p" ;
-	guiext:ui <http://github.com/blablack/ams-lv2/vcf/gui> ;
+	guiext:ui <http://moddevices.com/plugins/mod-devel/ams-lv2/vcf/gui> ;
 	lv2:optionalFeature lv2:hardRTCapable ;
 	lv2:port 
 		[

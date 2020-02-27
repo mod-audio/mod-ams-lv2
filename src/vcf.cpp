@@ -357,5 +357,5 @@ void Vcf::run(uint32_t nframes)
 	}
 }
 
-static int _ = Vcf::register_class("http://github.com/blablack/ams-lv2/vcf");
+static int _ = Vcf::register_class("http://moddevices.com/plugins/mod-devel/ams-lv2/vcf");
 

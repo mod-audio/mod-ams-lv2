@@ -19,5 +19,5 @@ void VcaLin::run(uint32_t nframes)
 
 }
 
-static int _ = VcaLin::register_class("http://github.com/blablack/ams-lv2/vcalin");
+static int _ = VcaLin::register_class("http://moddevices.com/plugins/mod-devel/ams-lv2/vcalin");
 

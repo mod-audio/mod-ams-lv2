@@ -9,33 +9,33 @@
 @prefix ll: 	<http://ll-plugins.nongnu.org/lv2/namespace#> .
 @prefix param:  <http://lv2plug.in/ns/ext/parameters#> .
 
-<http://github.com/blablack/ams-lv2/vco3/gui>
+<http://moddevices.com/plugins/mod-devel/ams-lv2/vco3/gui>
   a guiext:GtkUI ;
   guiext:binary <vco3_gui.so> .
 
-<http://github.com/blablack/ams-lv2/vco3#group_frequency>
+<http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#group_frequency>
     a param:OscillatorControls ;
     lv2:name "Frequency" ;
     lv2:symbol "grpFrequency" .
 
-<http://github.com/blablack/ams-lv2/vco3#group_pw_phase>
+<http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#group_pw_phase>
     a param:OscillatorControls ;
     lv2:name "Pulse Width - Phase" ;
     lv2:symbol "grpPWPhase" .
 
-<http://github.com/blablack/ams-lv2/vco3#group_modulation>
+<http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#group_modulation>
     a param:OscillatorControls ;
     lv2:name "Modulation" ;
     lv2:symbol "grpModulation" .
 
-<http://github.com/blablack/ams-lv2/vco3#group_input>
+<http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#group_input>
     a param:OscillatorControls, pg:InputGroup ;
     lv2:name "Input" ;
     lv2:symbol "grpInput" .
 
-<http://github.com/blablack/ams-lv2/vco3>
+<http://moddevices.com/plugins/mod-devel/ams-lv2/vco3>
     a lv2:Plugin, mod:ControlVoltagePlugin;
-	lv2:project <http://github.com/blablack/ams-lv2/> ;
+	lv2:project <http://moddevices.com/plugins/mod-devel/ams-lv2/> ;
 	doap:name "AMS VCO3" ;
 	doap:license <http://opensource.org/licenses/isc> ;
 
@@ -50,7 +50,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 """;
 
 	ll:pegName "p" ;
-	guiext:ui <http://github.com/blablack/ams-lv2/vco3/gui> ;
+	guiext:ui <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3/gui> ;
 	lv2:optionalFeature lv2:hardRTCapable ;
 	lv2:port [
 		a lv2:CVPort, mod:CVPort, lv2:InputPort ;
@@ -60,7 +60,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 0.0 ;
 		lv2:minimum -5.0 ;
 		lv2:maximum 5.0 ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupInput> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupInput> ;
 	] ,	[
 		a lv2:CVPort, mod:CVPort, lv2:InputPort ;
 		lv2:index 1 ; 
@@ -69,7 +69,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 0.0 ;
 		lv2:minimum -5.0 ;
 		lv2:maximum 5.0 ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupInput> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupInput> ;
 	] ,	[
 		a lv2:CVPort, mod:CVPort, lv2:InputPort ;
 		lv2:index 2 ; 
@@ -78,7 +78,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 0.0 ;
 		lv2:minimum -5.0 ;
 		lv2:maximum 5.0 ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupInput> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupInput> ;
 	] ,	[
 		a lv2:CVPort, mod:CVPort, lv2:InputPort ;
 		lv2:index 3 ; 
@@ -87,7 +87,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 0.0 ;
 		lv2:minimum -5.0 ;
 		lv2:maximum 5.0 ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupInput> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupInput> ;
 	] ,	[
 		a lv2:CVPort, mod:CVPort, lv2:InputPort ;
 		lv2:index 4 ; 
@@ -96,7 +96,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 0.0 ;
 		lv2:minimum -5.0 ;
 		lv2:maximum 5.0 ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupInput> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupInput> ;
 	] ,	[
 		a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 5 ; 
@@ -138,7 +138,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:minimum 0 ;
 		lv2:maximum 6 ;
         lv2:portProperty lv2:integer ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupFrequency> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupFrequency> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 7 ; 
@@ -147,7 +147,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 0 ;
 		lv2:minimum -1 ;
 		lv2:maximum 1 ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupFrequency> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupFrequency> ;
 	] , [
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 8 ; 
@@ -157,7 +157,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:minimum 0 ;
 		lv2:maximum 12 ;
         lv2:portProperty lv2:integer ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupFrequency> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupFrequency> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 9 ; 
@@ -166,7 +166,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 0.5 ;
 		lv2:minimum 0.1 ;
 		lv2:maximum 0.9 ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupPWPhase> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupPWPhase> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 10 ; 
@@ -175,7 +175,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 0 ;
 		lv2:minimum 0 ;
 		lv2:maximum 1 ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupPWPhase> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupPWPhase> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 11 ; 
@@ -184,7 +184,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 1 ;
 		lv2:minimum 1 ;
 		lv2:maximum 10 ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupPWPhase> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupPWPhase> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 12 ; 
@@ -193,7 +193,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 0 ;
 		lv2:minimum 0 ;
 		lv2:maximum 6.283 ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupPWPhase> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupPWPhase> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 13 ; 
@@ -202,7 +202,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 0 ;
 		lv2:minimum 0 ;
 		lv2:maximum 10 ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupModulation> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupModulation> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 14 ; 
@@ -211,7 +211,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 0 ;
 		lv2:minimum 0 ;
 		lv2:maximum 10 ;
-		pg:group <http://github.com/blablack/ams-lv2/vco3#groupModulation> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/ams-lv2/vco3#groupModulation> ;
 	] ,	[
 		a lv2:AudioPort , lv2:OutputPort ;
 		lv2:index 15 ; 

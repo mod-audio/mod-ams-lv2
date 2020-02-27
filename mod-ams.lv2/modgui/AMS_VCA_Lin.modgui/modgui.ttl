@@ -1,7 +1,7 @@
 @prefix modgui: <http://moddevices.com/ns/modgui#> .
 @prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
 
-<http://github.com/blablack/ams-lv2/vcalin>
+<http://moddevices.com/plugins/mod-devel/ams-lv2/vcalin>
     modgui:gui [
         modgui:resourcesDirectory <modgui> ;
         modgui:iconTemplate <modgui/mod_ams_vca_lin.html> ;

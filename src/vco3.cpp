@@ -297,5 +297,5 @@ void Vco3::run(uint32_t nframes)
 	}
 }
 
-static int _ = Vco3::register_class("http://github.com/blablack/ams-lv2/vco3");
+static int _ = Vco3::register_class("http://moddevices.com/plugins/mod-devel/ams-lv2/vco3");
 
