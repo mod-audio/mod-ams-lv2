@@ -8,26 +8,26 @@
 @prefix units: <http://lv2plug.in/ns/extensions/units#> .
 @prefix mod:    <http://moddevices.com/ns/mod#>.
 
-<http://github.com/blablack/ams-lv2/seq_8#main_controls>
+<http://moddevices.com/plugins/mod-devel/seq_8#main_controls>
     lv2:name "Main Controls" ;
     lv2:symbol "grpMainControls" .
 
-<http://github.com/blablack/ams-lv2/seq_8#pitch_controls>
+<http://moddevices.com/plugins/mod-devel/seq_8#pitch_controls>
     lv2:name "Pitch Controls" ;
     lv2:symbol "grpPitchControls" .
 
-<http://github.com/blablack/ams-lv2/seq_8#gate_controls>
+<http://moddevices.com/plugins/mod-devel/seq_8#gate_controls>
     lv2:name "Gate Controls" ;
     lv2:symbol "grpGateControls" .
 
-<http://github.com/blablack/ams-lv2/seq_8#velocity_controls>
+<http://moddevices.com/plugins/mod-devel/seq_8#velocity_controls>
     lv2:name "Velocity Controls" ;
     lv2:symbol "grpVelocityControls" .
 
 
-<http://github.com/blablack/ams-lv2/seq_8>
+<http://moddevices.com/plugins/mod-devel/seq_8>
     a lv2:Plugin, mod:ControlVoltagePlugin;
-	lv2:project <http://github.com/blablack/ams-lv2/> ;
+	lv2:project <http://moddevices.com/plugins/mod-devel/> ;
 	doap:name "AMS Sequencer 8 Steps" ;
 	doap:license <http://opensource.org/licenses/isc> ;
 
@@ -101,7 +101,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 32 ;
 		lv2:minimum 0 ;
 		lv2:maximum 63 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#main_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#main_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 6 ;
@@ -112,7 +112,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:maximum 300 ;
         units:unit units:bpm ;
         lv2:portProperty  mod:tempoRelatedDynamicScalePoints;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#main_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#main_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 7 ;
@@ -121,7 +121,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 0 ;
 		lv2:minimum 0 ;
 		lv2:maximum 3 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#main_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#main_controls> ;
 		lv2:portProperty lv2:enumeration ;
 		lv2:scalePoint
 				[
@@ -145,7 +145,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 31 ;
 		lv2:minimum 0 ;
 		lv2:maximum 64 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#pitch_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#pitch_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 9 ;
@@ -154,7 +154,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 31 ;
 		lv2:minimum 0 ;
 		lv2:maximum 64 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#pitch_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#pitch_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 10 ;
@@ -163,7 +163,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 31 ;
 		lv2:minimum 0 ;
 		lv2:maximum 64 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#pitch_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#pitch_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 11 ;
@@ -172,7 +172,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 31 ;
 		lv2:minimum 0 ;
 		lv2:maximum 64 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#pitch_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#pitch_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 12 ;
@@ -181,7 +181,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 31 ;
 		lv2:minimum 0 ;
 		lv2:maximum 64 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#pitch_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#pitch_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 13 ;
@@ -190,7 +190,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 31 ;
 		lv2:minimum 0 ;
 		lv2:maximum 64 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#pitch_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#pitch_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 14 ;
@@ -199,7 +199,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 31 ;
 		lv2:minimum 0 ;
 		lv2:maximum 64 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#pitch_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#pitch_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 15 ;
@@ -208,7 +208,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 31 ;
 		lv2:minimum 0 ;
 		lv2:maximum 64 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#pitch_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#pitch_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 16 ;
@@ -218,7 +218,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:minimum 0 ;
 		lv2:maximum 1 ;
         	lv2:portProperty lv2:toggled ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#gate_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#gate_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 17 ;
@@ -228,7 +228,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:minimum 0 ;
 		lv2:maximum 1 ;
         	lv2:portProperty lv2:toggled ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#gate_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#gate_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 18 ;
@@ -238,7 +238,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:minimum 0 ;
 		lv2:maximum 1 ;
         	lv2:portProperty lv2:toggled ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#gate_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#gate_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 19 ;
@@ -248,7 +248,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:minimum 0 ;
 		lv2:maximum 1 ;
         	lv2:portProperty lv2:toggled ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#gate_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#gate_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 20 ;
@@ -258,7 +258,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:minimum 0 ;
 		lv2:maximum 1 ;
         	lv2:portProperty lv2:toggled ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#gate_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#gate_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 21 ;
@@ -268,7 +268,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:minimum 0 ;
 		lv2:maximum 1 ;
         	lv2:portProperty lv2:toggled ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#gate_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#gate_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 22 ;
@@ -278,7 +278,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:minimum 0 ;
 		lv2:maximum 1 ;
         	lv2:portProperty lv2:toggled ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#gate_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#gate_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 23 ;
@@ -288,7 +288,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:minimum 0 ;
 		lv2:maximum 1 ;
         	lv2:portProperty lv2:toggled ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#gate_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#gate_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 24 ;
@@ -297,7 +297,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 63 ;
 		lv2:minimum 0 ;
 		lv2:maximum 127 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#velocity_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#velocity_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 25 ;
@@ -306,7 +306,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 63 ;
 		lv2:minimum 0 ;
 		lv2:maximum 127 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#velocity_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#velocity_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 26 ;
@@ -315,7 +315,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 63 ;
 		lv2:minimum 0 ;
 		lv2:maximum 127 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#velocity_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#velocity_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 27 ;
@@ -324,7 +324,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 63 ;
 		lv2:minimum 0 ;
 		lv2:maximum 127 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#velocity_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#velocity_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 28 ;
@@ -333,7 +333,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 63 ;
 		lv2:minimum 0 ;
 		lv2:maximum 127 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#velocity_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#velocity_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 29 ;
@@ -342,7 +342,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 63 ;
 		lv2:minimum 0 ;
 		lv2:maximum 127 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#velocity_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#velocity_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 30 ;
@@ -351,7 +351,7 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 63 ;
 		lv2:minimum 0 ;
 		lv2:maximum 127 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#velocity_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#velocity_controls> ;
 	] ,	[
 	  	a lv2:InputPort, lv2:ControlPort ;
 		lv2:index 31 ;
@@ -360,5 +360,5 @@ Ported from the AlsaModularSynth, a free and open-source project.
 		lv2:default 63 ;
 		lv2:minimum 0 ;
 		lv2:maximum 127 ;
-		pg:group <http://github.com/blablack/ams-lv2/seq_8#velocity_controls> ;
+		pg:group <http://moddevices.com/plugins/mod-devel/seq_8#velocity_controls> ;
 	] .

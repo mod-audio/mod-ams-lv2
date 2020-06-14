@@ -132,14 +132,14 @@ void Seq::nextStep()
 }
 
 #if STEP_COUNT == 8
-static int _ = Seq::register_class("http://github.com/blablack/ams-lv2/seq_8");
+static int _ = Seq::register_class("http://moddevices.com/plugins/mod-devel/seq_8");
 #elif STEP_COUNT == 12
-static int _ = Seq::register_class("http://github.com/blablack/ams-lv2/seq_12");
+static int _ = Seq::register_class("http://moddevices.com/plugins/mod-devel/seq_12");
 #elif STEP_COUNT == 16
-static int _ = Seq::register_class("http://github.com/blablack/ams-lv2/seq_16");
+static int _ = Seq::register_class("http://moddevices.com/plugins/mod-devel/seq_16");
 #elif STEP_COUNT == 24
-static int _ = Seq::register_class("http://github.com/blablack/ams-lv2/seq_24");
+static int _ = Seq::register_class("http://moddevices.com/plugins/mod-devel/seq_24");
 #elif STEP_COUNT == 32
-static int _ = Seq::register_class("http://github.com/blablack/ams-lv2/seq_32");
+static int _ = Seq::register_class("http://moddevices.com/plugins/mod-devel/seq_32");
 #endif
 

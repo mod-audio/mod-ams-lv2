@@ -101,5 +101,5 @@ void PercussiveEnv::run(uint32_t nframes)
 	}
 }
 
-static int _ = PercussiveEnv::register_class("http://github.com/blablack/ams-lv2/percussiveenv");
+static int _ = PercussiveEnv::register_class("http://moddevices.com/plugins/mod-devel/percussiveenv");
 

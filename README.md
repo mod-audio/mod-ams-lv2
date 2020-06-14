@@ -10,6 +10,8 @@ This repository contains the following plugins:
 - VCA
 - LFO
 - Envelope
+- Percussive Envelope
+- Sequencer 8 Steps
 
 
 INSTALL

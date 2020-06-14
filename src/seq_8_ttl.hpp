@@ -14,9 +14,9 @@ typedef struct {
 } peg_data_t;
 #endif
 
-/* <http://github.com/blablack/ams-lv2/seq_8> */
+/* <http://moddevices.com/plugins/mod-devel/seq_8> */
 
-static const char p_uri[] = "http://github.com/blablack/ams-lv2/seq_8";
+static const char p_uri[] = "http://moddevices.com/plugins/mod-devel/seq_8";
 
 enum p_port_enum {
   p_in_trigger,

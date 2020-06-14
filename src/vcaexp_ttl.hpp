@@ -14,9 +14,9 @@ typedef struct {
 } peg_data_t;
 #endif
 
-/* <http://github.com/blablack/ams-lv2/vcaexp> */
+/* <http://moddevices.com/plugins/mod-devel/vcaexp> */
 
-static const char p_uri[] = "http://github.com/blablack/ams-lv2/vcaexp";
+static const char p_uri[] = "http://moddevices.com/plugins/mod-devel/vcaexp";
 
 enum p_port_enum {
   p_gain1Data,

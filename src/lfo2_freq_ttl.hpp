@@ -14,9 +14,9 @@ typedef struct {
 } peg_data_t;
 #endif
 
-/* <http://github.com/blablack/ams-lv2/lfo2_freq> */
+/* <http://moddevices.com/plugins/mod-devel/lfo2_freq> */
 
-static const char p_uri[] = "http://github.com/blablack/ams-lv2/lfo2_freq";
+static const char p_uri[] = "http://moddevices.com/plugins/mod-devel/lfo2_freq";
 
 enum p_port_enum {
   p_reset,
