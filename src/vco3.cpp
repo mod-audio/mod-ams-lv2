@@ -56,6 +56,9 @@ void Vco3::run(uint32_t nframes)
 			oldSyncValue = p(p_sync)[l2];
 
 			dphi = freq_const * (synthdata->exp2_table(freq_tune + p(p_freq)[l2] +  *p(p_expFMGain) * (p(p_expFM)[l2] * 0.2)) + gain_linfm * (p(p_linFM)[l2] * 0.2));
+
+			if (dphi > 32330.0)
+				dphi = 32330.0;
 			if (dphi > wave_period_2)
 				dphi = wave_period_2;
 			phi1 = phi + phi_const;
@@ -68,6 +71,7 @@ void Vco3::run(uint32_t nframes)
 			switch (waveForm)
 			{
 				case SINUS:
+                    std::cout << "sinus" << std::endl;
 					p(p_out)[l2] = synthdata->wave_sine[phint];
 					break;
 				case TRIANGLE:
@@ -183,6 +187,9 @@ void Vco3::run(uint32_t nframes)
 			oldSyncValue = p(p_sync)[l2];
 
 			dphi = freq_const * (synthdata->exp2_table(freq_tune + p(p_freq)[l2] +  *p(p_expFMGain) * (p(p_expFM)[l2] * 0.2)) + gain_linfm * (p(p_linFM)[l2] * 0.2));
+
+			if (dphi > 32330.0)
+				dphi = 32330.0;
 			if (dphi > wave_period_2)
 				dphi = wave_period_2;
 			phint = (int) phi;
