@@ -71,7 +71,6 @@ void Vco3::run(uint32_t nframes)
 			switch (waveForm)
 			{
 				case SINUS:
-                    std::cout << "sinus" << std::endl;
 					p(p_out)[l2] = synthdata->wave_sine[phint];
 					break;
 				case TRIANGLE:
