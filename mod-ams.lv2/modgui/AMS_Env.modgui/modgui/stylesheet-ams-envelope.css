@@ -123,3 +123,15 @@
     height: 110px;
     width: 40px;
 }
+
+.ams-env{{{cns}}} .mod-control-group .ams-svg {
+    position: relative;
+    border: none;
+    display: inline-block;
+    background-color: #000;
+    border: 1px solid #666;
+    top: 137px;
+    left: 8px;
+    width: 211px;
+    height: 113px;
+}

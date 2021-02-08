@@ -6,6 +6,7 @@
         modgui:resourcesDirectory <modgui> ;
         modgui:iconTemplate <modgui/icon-ams-envelope.html> ;
         modgui:stylesheet <modgui/stylesheet-ams-envelope.css> ;
+        modgui:javascript <modgui/javascript-ams-envelope.js> ;
         modgui:screenshot <modgui/ams_envelope_ss.png> ;
         modgui:thumbnail <modgui/ams_envelope_tn.png> ;
         modgui:brand "Aurelien L" ;
